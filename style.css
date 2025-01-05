@@ -1,0 +1,94 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #100D58;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #100D58;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #100D58;
+}
+
+h4 {
+    font-size: 1em;
+    color: #100D58;
+    padding-top: 2em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+b {
+    color: #100D58;
+}
+
+hr {
+    border: 1px solid #100D58;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid transparent;
+    padding: 2px;
+    text-align: center;
+}
+
+th {
+    background-color: transparent;
+    color: #f0f0f0;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.8em;
+    color: #100D58;
+}
+
+.education-level {
+    font-size: i.5rem;
+    color: #100D58;
+}
+
+.course {
+    color: black;
+    font-style: italic;
+}
+
+.institution {
+    color: #100D58;
+}
+
+.company {
+    padding-left: 1rem;
+    color: #100D58;
+    font-weight: bold;
+}
+
+.city {
+    padding-left: 1rem;
+    color: #100D58;
+    font-weight: bold;
+}
+
+.time-period {
+    color: #100D58;
+    font-weight: bold;
+}
