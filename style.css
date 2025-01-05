@@ -43,7 +43,6 @@ h4 {
 
 hr {
     border: 1px solid #100D58;
-    width: 90%;
 }
 
 p {
@@ -111,4 +110,8 @@ th {
 .time-period {
     color: #100D58;
     font-weight: bold;
+}
+
+.separator {
+    width: 950px;
 }
