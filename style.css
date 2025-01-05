@@ -1,8 +1,18 @@
+/* HTML elements */
+
+b {
+    color: #100D58;
+}
+
 body {
     background-color: #f0f0f0;
     color: #333;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+}
+
+div {
+    width: 900px;
 }
 
 h1 {
@@ -25,19 +35,18 @@ h3 {
 h4 {
     font-size: 1em;
     color: #100D58;
-    padding-top: 2em;
-}
-
-p {
-    font-size: 0.9em;
-}
-
-b {
-    color: #100D58;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 
 hr {
     border: 1px solid #100D58;
+    width: 90%;
+}
+
+p {
+    font-size: 0.9em;
+    margin-top: 4px;
 }
 
 table {
@@ -47,7 +56,7 @@ table {
 
 th, td {
     border: 1px solid transparent;
-    padding: 2px;
+    padding: 1px;
     text-align: center;
 }
 
@@ -56,12 +65,15 @@ th {
     color: #f0f0f0;
 }
 
+/* classes */
 .copyright {
     text-align: center;
     font-size: 0.8em;
     color: #100D58;
 }
 
+
+/* education section */
 .education-level {
     font-size: i.5rem;
     color: #100D58;
@@ -74,6 +86,12 @@ th {
 
 .institution {
     color: #100D58;
+}
+
+
+/* experience section */
+.experience {
+    text-align: justify;
 }
 
 .company {
