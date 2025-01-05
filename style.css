@@ -30,6 +30,7 @@ h2 {
 h3 {
     font-size: 1.2em;
     color: #100D58;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -37,6 +38,7 @@ h4 {
     color: #100D58;
     margin-top: 5px;
     margin-bottom: 0;
+    padding-top: 0;
 }
 
 hr {
