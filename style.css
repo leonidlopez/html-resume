@@ -22,6 +22,7 @@ h1 {
     text-align: center;
     color: #100D58;
     margin-bottom: 1px;
+    font-size: 3.6vw;
 }
 
 h2 {
@@ -29,6 +30,7 @@ h2 {
     color: #100D58;
     margin-top: 1px;
     margin-bottom: 1px;
+    font-size: 2.7vw;
 }
 
 h3 {
@@ -49,13 +51,14 @@ hr {
 }
 
 p {
-    font-size: 0.9em;
     margin-top: 4px;
+    font-size: 1.8vw;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+    font-size: 1.8vw;
 }
 
 th, td {
