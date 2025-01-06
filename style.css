@@ -1,8 +1,11 @@
 /* HTML elements */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 body {
     background-color: #f0f0f0;
     color: #333;
-    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
 
@@ -125,4 +128,5 @@ ul {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    z-index: 100%;
 }
