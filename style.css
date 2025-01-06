@@ -14,24 +14,24 @@ h1, h2, h3, h4, b {
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 1px;
     font-size: 3.6vw;
+    margin-bottom: 1px;
+    text-align: center;
 }
 
 h2 {
-    text-align: center;
     margin-top: 1px;
     margin-bottom: 1px;
     font-size: 2.7vw;
+    text-align: center;
 }
 
 h3 {
+    background-color: #100D58;
+    color: white;
     margin-bottom: 1em;
     text-align: center;
     font-size: 2.1vw;
-    background-color: #100D58;
-    color: white;
     font-weight: normal;
 }
 
@@ -61,11 +61,7 @@ th, td {
     border: 1px solid transparent;
     padding: 1px;
     text-align: center;
-}
-
-th {
     background-color: transparent;
-    color: #f0f0f0;
 }
 
 ul {
@@ -125,8 +121,19 @@ ul {
 
 /* IDs */
 #resume {
-    width: 80%;
-    margin-left: 10%;
+    width: 75%;
+    margin-left: 15%;
     margin-right: 10%;
     z-index: 100%;
+}
+
+#left-frame {
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    background-color: #100D58;
+    height: 100%;
+    width: 12%;
+    position: fixed;
+    z-index: -1;
 }
