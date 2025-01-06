@@ -12,7 +12,10 @@ body {
 }
 
 div {
-    width: 900px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
 }
 
 h1 {
@@ -33,7 +36,8 @@ h2 {
 h3 {
     font-size: 1.2em;
     color: #100D58;
-    margin-bottom: 0;
+    margin-bottom: 1em;
+    text-align: center;
 }
 
 h4 {
@@ -67,6 +71,10 @@ th, td {
 th {
     background-color: transparent;
     color: #f0f0f0;
+}
+
+ul {
+    margin-bottom: 2em;
 }
 
 /* classes */
@@ -116,5 +124,7 @@ th {
 }
 
 .separator {
-    width: 950px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
