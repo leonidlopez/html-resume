@@ -7,3 +7,24 @@
     position: fixed;
     z-index: -1;
 }
+
+.left-frame {
+    background-color: transparent;
+    color: gray;
+    font-weight: bold;
+    transform: rotate(270deg);
+    position: fixed;
+}
+
+#left-frame-name {
+    font-size: 3.2vw;
+    margin-left: -2em;
+    margin-top: 15em;
+}
+
+#left-frame-doc-type {
+    font-size: 2.5vw;
+    font-weight: normal;
+    margin-left: 1em;
+    margin-top: 15em;
+}
