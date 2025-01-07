@@ -1,49 +1,12 @@
-/* HTML elements */
+/****** HTML elements */
 * {
     font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
 }
 
 body {
-    background-color: #f0f0f0;
     color: #333;
     font-size: 18px;
-}
-
-h1, h2, h3, h4, b {
-    color: #100D58;
-}
-
-h1 {
-    font-size: 3.6vw;
-    margin-bottom: 1px;
-    text-align: center;
-}
-
-h2 {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    font-size: 2.7vw;
-    text-align: center;
-}
-
-h3 {
-    background-color: #100D58;
-    color: white;
-    margin-bottom: 1em;
-    text-align: center;
-    font-size: 2.1vw;
-    font-weight: normal;
-}
-
-h4 {
-    margin-top: 5px;
-    margin-bottom: 0;
-    padding-top: 0;
-    font-size: 1.8vw;
-}
-
-hr {
-    border: 1px solid #100D58;
 }
 
 p, li{
@@ -68,20 +31,13 @@ ul {
     margin-bottom: 2em;
 }
 
-/* classes */
-.copyright {
-    text-align: center;
-    color: #100D58;
-}
-
+/****** classes */
 .separator {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
 }
 
-
-/* education section */
 .education-level {
     font-size: i.5rem;
     color: #100D58;
@@ -96,44 +52,36 @@ ul {
     color: #100D58;
 }
 
-
-/* experience section */
 .experience {
     text-align: justify;
 }
 
-.company {
-    padding-left: 1rem;
-    color: #100D58;
-    font-weight: bold;
-}
-
-.city {
-    padding-left: 1rem;
-    color: #100D58;
-    font-weight: bold;
-}
-
-.time-period {
-    color: #100D58;
-    font-weight: bold;
-}
-
-/* IDs */
+/****** IDs */
 #resume {
     width: 75%;
     margin-left: 15%;
     margin-right: 10%;
-    z-index: 100%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
 }
 
-#left-frame {
-    float: left;
-    width: 30%;
-    margin-right: 2%;
-    background-color: #100D58;
-    height: 100%;
-    width: 12%;
+#header {
     position: fixed;
-    z-index: -1;
+    text-align: center;
+    z-index: 2;
+    width: 75%;
+    margin-right: 10%;
+}
+
+#resume-body {
+    position: absolute;
+    margin-top: 25%;
+}
+
+#copyright {
+    color: #100D58;
+    margin-left: 17%;
+    position: absolute;
+    z-index: 1;
 }
