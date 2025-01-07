@@ -2,6 +2,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     background-color: #f0f0f0;
+    font-size: 1rem;
 }
 
 body {
@@ -11,13 +12,11 @@ body {
 
 p, li{
     margin-top: 4px;
-    font-size: 1.8vw;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    font-size: 1.8vw;
 }
 
 th, td {
@@ -58,9 +57,9 @@ ul {
 
 /****** IDs */
 #resume {
-    width: 75%;
+    width: 70%;
     margin-left: 15%;
-    margin-right: 10%;
+    margin-right: 15%;
     margin-top: 20px;
     z-index: 1;
 }
