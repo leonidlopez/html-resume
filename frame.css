@@ -5,7 +5,7 @@
     height: 100%;
     width: 12%;
     position: fixed;
-    z-index: -1;
+    z-index: 1;
 }
 
 .left-frame {

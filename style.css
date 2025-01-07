@@ -62,26 +62,18 @@ ul {
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 20px;
-    position: relative;
     z-index: 1;
 }
 
 #header {
-    position: fixed;
-    text-align: center;
     z-index: 2;
-    width: 75%;
-    margin-right: 10%;
 }
 
 #resume-body {
     position: absolute;
-    margin-top: 25%;
 }
 
 #copyright {
     color: #100D58;
     margin-left: 17%;
-    position: absolute;
-    z-index: 1;
 }
