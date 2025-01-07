@@ -69,11 +69,11 @@ ul {
     z-index: 2;
 }
 
-#resume-body {
-    position: absolute;
-}
-
 #copyright {
     color: #100D58;
-    margin-left: 17%;
+    text-align: center;
+}
+
+#go-to-contact {
+    text-align: right;
 }
