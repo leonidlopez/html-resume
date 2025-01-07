@@ -5,6 +5,13 @@
     font-size: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+    * {
+        font-size: 1.8vw;
+    }
+    
+}
+
 body {
     color: #333;
     font-size: 18px;
@@ -12,18 +19,6 @@ body {
 
 p, li{
     margin-top: 4px;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid transparent;
-    padding: 1px;
-    text-align: center;
-    background-color: transparent;
 }
 
 ul {
@@ -57,9 +52,9 @@ ul {
 
 /****** IDs */
 #resume {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 74%;
+    margin-left: 16%;
+    margin-right: 10%;
     margin-top: 20px;
     z-index: 1;
 }

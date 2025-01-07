@@ -3,7 +3,7 @@ h1, h2, h3, h4, b {
 }
 
 h1 {
-    font-size: 2.6vw;
+    font-size: 2rem;
     margin-bottom: 1px;
     text-align: center;
 }
@@ -11,7 +11,7 @@ h1 {
 h2 {
     margin-top: 1px;
     margin-bottom: 1px;
-    font-size: 2.2vw;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ h3 {
     color: white;
     margin-bottom: 1em;
     text-align: center;
-    font-size: 2.1vw;
+    font-size: 1.1rem;
     font-weight: normal;
 }
 
@@ -28,7 +28,26 @@ h4 {
     margin-top: 5px;
     margin-bottom: 0;
     padding-top: 0;
-    font-size: 2vw;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 2.6vw;
+    }
+
+    h2 {
+        font-size: 2.2vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    h4 {
+        font-size: 2vw;
+    }
+    
 }
 
 hr {
