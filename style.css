@@ -25,6 +25,16 @@ ul {
     margin-bottom: 2em;
 }
 
+li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 4px;
+}
+
+li::marker {
+    color: #100D58;
+}
+
 /****** classes */
 .separator {
     width: 70%;

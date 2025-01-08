@@ -11,15 +11,6 @@ th, td {
     font-size: 1.1rem;
 }
 
-li {
-    list-style-type: square;
-    list-style-position: inside;
-}
-
-li::marker {
-    color: #100D58;
-}
-
 @media screen and (max-width: 480px) {
     table {
         width: 100%;
