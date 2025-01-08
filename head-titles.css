@@ -81,3 +81,8 @@ footer {
     margin: 16px 0 16px 0;
     clear: both ;
 }
+
+#copyright {
+    color: #100D58;
+    text-align: center;
+}
