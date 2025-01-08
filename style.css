@@ -60,6 +60,10 @@ li::marker {
     text-align: justify;
 }
 
+.skill-list {
+    text-align: justify;
+}
+
 /****** IDs */
 #resume {
     width: 74%;
