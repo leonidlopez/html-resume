@@ -72,6 +72,17 @@ li::marker {
     z-index: 1;
 }
 
+.resume-links{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.resume-links > a{
+    font-size: small;
+}
+
 #header {
     z-index: 2;
 }
