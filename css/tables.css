@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid transparent;
+    padding: 1px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%;
+        border: 0;
+    }
+
+    th, td {
+        border: 1px solid transparent;
+        text-align: center;
+        background-color: transparent;
+        font-size: 10px;
+    }
+}
