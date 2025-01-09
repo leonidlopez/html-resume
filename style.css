@@ -5,7 +5,7 @@
     font-size: 1.1rem;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
     * {
         font-size: 12px;
     }
@@ -27,7 +27,6 @@ ul {
 
 li {
     list-style-type: square;
-    list-style-position: inside;
     margin-top: 4px;
 }
 
@@ -75,8 +74,4 @@ li::marker {
 
 #header {
     z-index: 2;
-}
-
-#go-to-contact {
-    text-align: right;
 }

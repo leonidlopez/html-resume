@@ -3,27 +3,47 @@
     margin-right: 2%;
     height: 100%;
     width: 12%;
-    position: fixed;
     z-index: 1;
-}
-
-.left-frame {
-    background-color: transparent;
-    color: gray;
-    font-weight: bold;
-    transform: rotate(270deg);
     position: fixed;
 }
 
-#left-frame-name {
-    font-size: 3.2vw;
-    margin-left: -2em;
-    margin-top: 10em;
+.left-frame-title {
+    background-color: transparent;
+    height: 3.5rem;
+    width: 15rem;
+    padding: 0;
+    border: 0;
+    margin-top: 200px;
+    margin-left: -70px;
+    
+    transform: rotate(270deg);
+
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: right;
+    text-align: bottom;
 }
 
-#left-frame-doc-type {
-    font-size: 2.5vw;
-    font-weight: normal;
-    margin-left: 1em;
-    margin-top: 10em;
+span.doc-name {
+    font-size: 30px;
+}
+
+@media (max-width: 480px) {
+    .left-frame-title {
+        height: 1.5rem;
+        width: 15rem;
+        text-align: right;
+        padding: 0;
+        border: 0;
+        margin-top: 150px;
+        margin-left: -70px;
+
+        font-size: 15px;
+    }
+
+    span.doc-name {
+        font-size: 20px;
+    }
 }
