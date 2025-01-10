@@ -5,13 +5,6 @@
     font-size: 1.1rem;
 }
 
-@media (max-width: 480px) {
-    * {
-        font-size: 12px;
-    }
-    
-}
-
 body {
     color: #333;
     font-size: 18px;
@@ -34,7 +27,6 @@ li::marker {
     color: #100D58;
 }
 
-/****** classes */
 .separator {
     width: 70%;
     margin-left: 15%;
@@ -46,7 +38,7 @@ li::marker {
     color: #100D58;
 }
 
-.course {
+.course, .italic-text {
     color: black;
     font-style: italic;
 }
@@ -63,14 +55,12 @@ li::marker {
     text-align: justify;
 }
 
-
 .bold-text {
     font-weight: bold;
     color: #100D58;
 }
 
-/****** IDs */
-#resume {
+#resume, #page-references, #page-contact {
     width: 74%;
     margin-left: 16%;
     margin-right: 10%;
@@ -89,6 +79,8 @@ li::marker {
     font-size: small;
 }
 
-#header {
-    z-index: 2;
+@media (max-width: 480px) {
+    * {
+        font-size: 12px;
+    }
 }
