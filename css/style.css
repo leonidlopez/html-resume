@@ -63,6 +63,12 @@ li::marker {
     text-align: justify;
 }
 
+
+.bold-text {
+    font-weight: bold;
+    color: #100D58;
+}
+
 /****** IDs */
 #resume {
     width: 74%;
