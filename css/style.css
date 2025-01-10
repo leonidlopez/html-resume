@@ -38,17 +38,9 @@ li::marker {
     color: #100D58;
 }
 
-.course, .italic-text {
+.italic-text {
     color: black;
     font-style: italic;
-}
-
-.institution {
-    color: #100D58;
-}
-
-.experience {
-    text-align: justify;
 }
 
 .skill-list {
@@ -58,6 +50,10 @@ li::marker {
 .bold-text {
     font-weight: bold;
     color: #100D58;
+}
+
+.white-text {
+    color: transparent;
 }
 
 #resume, #page-references, #page-contact {
