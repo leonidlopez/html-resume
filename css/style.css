@@ -28,6 +28,10 @@ li::marker {
     color: #100D58;
 }
 
+hr {
+    border-color: #100D5880;
+}
+
 .separator {
     width: 60%;
     margin-left: 20%;

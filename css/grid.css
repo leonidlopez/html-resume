@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 180px auto 16%;
+    grid-template-columns: 180px auto 12%;
     grid-template-rows: max-content;
 }
 
