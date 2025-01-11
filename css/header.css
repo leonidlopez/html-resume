@@ -1,7 +1,27 @@
 #header {
-    z-index: 2;
+    z-index: 1;
+    margin-left: 12%;
 }
 
 #name, #professional-title{
     text-align: left;
+}
+
+.resume-links{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-right: 25%;
+}
+
+.resume-links > a{
+    font-size: small;
+}
+
+@media (max-width: 480px) {
+    .resume-links {
+        margin-right: 10%;
+        font-size: 10px;
+    }
 }

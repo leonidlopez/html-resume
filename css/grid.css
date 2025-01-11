@@ -1,0 +1,17 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 180px auto 16%;
+    grid-template-rows: max-content;
+}
+
+#left-frame.grid-item {
+    width: 150px;
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100px auto 20px;
+        grid-template-rows: max-content;
+    }
+}

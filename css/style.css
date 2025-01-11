@@ -21,6 +21,7 @@ ul {
 li {
     list-style-type: square;
     margin-top: 4px;
+    text-align: justify;
 }
 
 li::marker {
@@ -28,9 +29,9 @@ li::marker {
 }
 
 .separator {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .education-level {
@@ -54,25 +55,6 @@ li::marker {
 
 .white-text {
     color: transparent;
-}
-
-#resume, #page-references, #page-contact {
-    width: 74%;
-    margin-left: 16%;
-    margin-right: 10%;
-    margin-top: 20px;
-    z-index: 1;
-}
-
-.resume-links{
-    text-align: right;
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-.resume-links > a{
-    font-size: small;
 }
 
 @media (max-width: 480px) {
