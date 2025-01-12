@@ -21,6 +21,14 @@ span.doc-name {
     font-size: 30px;
 }
 
+#left-frame {
+    background-color: transparent;
+}
+
+#left-frame.grid-item {
+    width: 150px;
+}
+
 @media (max-width: 480px) {
     .left-frame-title {
         height: 1.5rem;
@@ -34,5 +42,9 @@ span.doc-name {
 
     span.doc-name {
         font-size: 20px;
+    }
+
+    #left-frame.grid-item {
+        width: 75px;
     }
 }

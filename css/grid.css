@@ -1,17 +1,18 @@
 .grid-container {
     display: grid;
     grid-template-columns: 180px auto 12%;
-    grid-template-rows: max-content;
+    grid-template-rows: auto auto max-content;
+    gap: 5px;
 }
 
-#left-frame.grid-item {
-    width: 150px;
+#header, .separator.grid-item {
+    grid-column: span 3;
 }
 
 @media (max-width: 480px) {
     .grid-container {
         display: grid;
-        grid-template-columns: 100px auto 20px;
+        grid-template-columns: 80px auto 20px;
         grid-template-rows: max-content;
     }
 }
