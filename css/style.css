@@ -62,6 +62,10 @@ hr {
     color: transparent;
 }
 
+.justify-text {
+    text-align: justify;
+}
+
 @media (max-width: 480px) {
     * {
         font-size: 12px;

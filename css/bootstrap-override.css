@@ -1,6 +1,7 @@
 .btn.btn-primary {
     background-color: #100D58;
     border: none;
+    box-shadow: 0px 2px lightgray;
 }
 
 .btn.btn-primary.active {
