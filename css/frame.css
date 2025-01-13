@@ -11,6 +11,9 @@
 
     transform: rotate(270deg);
     color: gray;
+
+    position: fixed;
+
     font-size: 20px;
     font-weight: bold;
     text-align: right;
@@ -19,9 +22,6 @@
 
 span.doc-name {
     font-size: 30px;
-}
-
-#left-frame {
     background-color: transparent;
 }
 

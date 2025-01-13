@@ -5,8 +5,40 @@
     gap: 5px;
 }
 
-#header, .separator.grid-item {
-    grid-column: span 3;
+.cards-grid-container {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-image {
+    height: 110px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+}
+
+.card {
+    width: 22rem;
+    border: solid lightgray;
+}
+
+@media (min-width: 1800px) {
+    .cards-grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1400px) {
+    .cards-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1000px) {
+    .cards-grid-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
@@ -14,5 +46,9 @@
         display: grid;
         grid-template-columns: 80px auto 20px;
         grid-template-rows: max-content;
+    }
+
+    .cards-grid-container {
+        grid-template-columns: 1fr;
     }
 }
