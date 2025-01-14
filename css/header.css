@@ -1,7 +1,7 @@
 #header {
-    z-index: 2;
     margin-left: 12%;
     position: fixed;
+    z-index: 1;
     background-color: #f0f0f0;
 }
 

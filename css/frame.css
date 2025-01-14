@@ -1,3 +1,8 @@
+span.doc-name {
+    font-size: 30px;
+    background-color: transparent;
+}
+
 .left-frame-title {
     background-color: transparent;
 
@@ -20,13 +25,13 @@
     text-align: bottom;
 }
 
-span.doc-name {
-    font-size: 30px;
-    background-color: transparent;
-}
-
 #left-frame.grid-item {
     width: 150px;
+}
+
+#left-frame {
+    background-color: transparent;
+    z-index: 2;
 }
 
 @media (max-width: 480px) {
