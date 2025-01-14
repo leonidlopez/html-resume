@@ -1,6 +1,8 @@
 #header {
     z-index: 2;
     margin-left: 12%;
+    position: fixed;
+    background-color: #f0f0f0;
 }
 
 #header, .separator.grid-item {
@@ -25,20 +27,13 @@
 
 .btn-group {
     float: right;
-    margin-right: 20%;
+    margin-right: 10px;
 }
-
 
 @media (max-width: 480px) {
     .resume-links {
         margin-right: 10%;
         font-size: 10px;
-    }
-}
-
-@media (max-width: 480px) {
-    .btn-group {
-        margin-right: 10%;
     }
 
     .btn-group > a {
